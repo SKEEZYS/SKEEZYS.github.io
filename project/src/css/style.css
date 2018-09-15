@@ -1,0 +1,35 @@
+.header {
+	border: 1px solid white;
+	display: inline-block;
+	width:200px;
+	height: 280px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 30px;
+}
+
+a {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	border: 2px solid black;
+}
+
+body {
+	background-color: rgba(0,2550,0,0.4);
+}
+
+.text-2 {
+	font-weight: bold;
+}

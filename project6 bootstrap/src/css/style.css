@@ -1,0 +1,13 @@
+.header {
+	margin-top: 100px;
+	text-transform: uppercase;
+}
+.row {
+	margin-top: 100px;
+}
+.col-lg-2 {
+	text-align: center;
+}
+.col-lg-2 p{
+	margin-top: 20px;
+}
