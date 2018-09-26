@@ -54,7 +54,63 @@ body {
  color:@Light;
  border: none;
 }
-
+.arrow {
+		top:50%;
+		transform: translateY(-50%);
+		position: absolute;
+		width: 2rem;
+		height: 2rem;
+		border: none;
+		background-size: 70%;
+		z-index: 99;
+	}
+.prev {
+	position: absolute;
+	left:0;
+	background: url(../img/monotonearrow_left.PNG) center no-repeat;
+	background-size: 70%;
+}
+.next {
+	position: absolute;
+	right:0;
+	background: url(../img/monotonearrow_right.PNG) center no-repeat;
+	background-size: 70%;
+}
+// Typography
+.slick-active {
+	outline: none;
+}
+.section-header {
+	.bold();
+	text-align:center;
+	font-size: 3.6rem;
+	margin-bottom: 13rem;
+}
+.feature {
+	margin: 10rem 0;
+	&-block {
+		h3 {
+			.bold();
+			font-size: 2rem;
+			margin-bottom: 3rem;
+		}
+		p {
+			display: inline-block;
+			width: 80%;
+			font-size: 1.4rem;
+		}
+	}
+	&-slider {
+		text-align:center;
+	}
+	&-img {
+		img {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 6rem;
+		}
+	}
+}
 /* Main */
 .main {
 	padding: 3rem 0 5rem;
@@ -162,4 +218,32 @@ body {
 		line-height: 7rem;
 		color: @Text;
  }
+}
+
+@media (max-width: 991px) {
+	.main {
+		background-position: top right;
+	}
+	.phone-block {
+		text-align:center;
+	}
+	.main-content {
+		margin-top: 3rem;
+	}
+	.main-title {
+		padding-bottom: 3rem;
+		text-align:center;
+	}
+}
+
+@media (max-width: 767px) {
+	.main {
+		background-position: top left;
+	}
+	.header {
+		text-align: center;
+	}
+	.wrap-block {
+		text-align: center;
+	}
 }
