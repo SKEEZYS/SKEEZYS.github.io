@@ -23,3 +23,5 @@
 [Урок 11](https://skeezys.github.io/project%202%20(Псевдоклассы)%20—%20копия/ "Описание") Псевдоэлементы
 
 [Practice](https://skeezys.github.io/project%201%20HomeWork(Again)/ "Описание") Made myself
+
+[Practice2](https://skeezys.github.io/New%20Providence%20HTML/ "Описание") New Provide HTML
