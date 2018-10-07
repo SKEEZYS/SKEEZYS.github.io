@@ -27,3 +27,5 @@
 [Practice2](https://skeezys.github.io/New%20Providence%20HTML/ "Описание") New Provide HTML
 
 [Practice2](https://skeezys.github.io/New%20Providence%20HTML%20v2.0/ "Описание") New Provide HTML v2.0
+
+[Practice3](https://skeezys.github.io/New%20Providence%20HTML%20v3.0/ "Описание") New Provide HTML v3.0
